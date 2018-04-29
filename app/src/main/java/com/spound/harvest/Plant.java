@@ -22,7 +22,7 @@ public class Plant implements Serializable{
 
 
 
-    public Plant(String n, Context c, String wF){
+    public Plant(String n, Context c String wF){
         this.name = n;
         this.imageLoc = n + "img";
         refresh(c);
